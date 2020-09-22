@@ -3,7 +3,23 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor-community/react-hooks": "0.0.11",
+    "@capacitor/android": "^2.4.0",
+    "@capacitor/core": "2.4.0",
+    "@ionic-native/call-log": "^5.28.0",
+    "@ionic-native/camera": "^5.28.0",
+    "@ionic-native/contacts": "^5.28.0",
+    "@ionic-native/file": "^5.28.0",
+    "@ionic-native/file-chooser": "^5.28.0",
+    "@ionic-native/file-path": "^5.28.0",
+    "@ionic-native/image-picker": "^5.28.0",
+    "@ionic-native/music-controls": "^5.28.0",
+    "@ionic-native/preview-any-file": "^5.28.0",
+    "@ionic-native/sms": "^5.28.0",
+    "@ionic-native/sqlite": "^5.28.0",
+    "@ionic/pwa-elements": "^3.0.1",
     "@ionic/react": "^5.0.7",
+    "@ionic/react-hooks": "0.0.8",
     "@ionic/react-router": "^5.0.7",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -14,12 +30,25 @@
     "@types/react-dom": "^16.9.4",
     "@types/react-router": "^5.1.4",
     "@types/react-router-dom": "^5.1.3",
+    "cordova-plugin-calllog": "^1.3.2",
+    "cordova-plugin-camera": "^4.1.0",
+    "cordova-plugin-contacts": "^3.0.1",
+    "cordova-plugin-file": "^6.0.2",
+    "cordova-plugin-filechooser": "^1.2.0",
+    "cordova-plugin-filepath": "^1.5.8",
+    "cordova-plugin-media": "^5.0.3",
+    "cordova-plugin-music-controls": "^2.2.0",
+    "cordova-plugin-preview-any-file": "^0.1.6",
+    "cordova-plugin-streaming-media": "^2.3.0",
+    "cordova-plugin-telerik-imagepicker": "^2.3.3",
+    "cordova-sms-plugin": "^1.0.0",
+    "cordova-sqlite-storage": "^5.0.1",
     "ionicons": "^5.0.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "^3.4.3",
     "typescript": "3.8.3"
   },
   "scripts": {
@@ -43,5 +72,8 @@
       "last 1 safari version"
     ]
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "devDependencies": {
+    "@capacitor/cli": "2.4.0"
+  }
 }
